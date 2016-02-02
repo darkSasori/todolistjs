@@ -3,7 +3,9 @@ function loadBody() {
     item = document.getElementById('item');
 
     todo = new ListCollection('todo');
+    todo.all();
     ready = new ListCollection('ready');
+    ready.all();
 
     changeTodo();
 }
